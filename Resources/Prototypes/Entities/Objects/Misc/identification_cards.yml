@@ -895,6 +895,7 @@
     interfaces:
       enum.AgentIDCardUiKey.Key:
         type: AgentIDCardBoundUserInterface
+<<<<<<< HEAD
 
 - type: entity
   parent: IDCardStandard
@@ -909,3 +910,5 @@
     heldPrefix: blue
   - type: PresetIdCard
     job: JobAegisOperative #потом поменять на рольку оперативника Аегис!!
+=======
+>>>>>>> parent of 055d58cccf (    Add вещи оперативника "Аегис")

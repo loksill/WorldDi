@@ -1531,6 +1531,7 @@
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
+<<<<<<< HEAD
 
 - type: entity
   parent: BaseSecurityPDA
@@ -1568,3 +1569,5 @@
       - NanoTaskCartridge
       - AstroNavCartridge
       - MedTekCartridge
+=======
+>>>>>>> parent of 055d58cccf (    Add вещи оперативника "Аегис")

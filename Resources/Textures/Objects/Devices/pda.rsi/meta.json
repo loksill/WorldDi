@@ -230,12 +230,9 @@
       "name": "pda-seniorphysician"
     },
     {
-      "name": "pda-aegis"
-    },
-    {
       "name": "pda-seniorofficer"
     },
-	  {
+	{
       "name": "pda-wizard",
       "delays": [
         [
