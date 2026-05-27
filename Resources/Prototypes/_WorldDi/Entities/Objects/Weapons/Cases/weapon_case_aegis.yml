@@ -1,0 +1,22 @@
+- type: entity
+  id: WeaponCaseAegis
+  parent: BaseItem
+  name: Aegis weapon case
+  description: A heavy-duty, sealed case with Bluespace technology. Contains a choice of tactical weapons.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Cases/aegis_case.rsi
+    state: icon
+  - type: Item
+    size: Huge
+    shape:
+    - 0, 0, 3, 1
+  - type: ActivatableUI
+    key: enum.AegisWeaponCaseUiKey.Key
+    singleUser: true
+    closeOnHandDeselect: true
+  - type: UserInterface
+    interfaces:
+      enum.AegisWeaponCaseUiKey.Key:
+        type: AegisWeaponCaseBoundUserInterface
+  - type: AegisWeaponCase

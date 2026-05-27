@@ -1,0 +1,21 @@
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons] 
+  id: ClothingEyesAegisGlasses
+  name: защитные очки Aegis
+  description: Модернизированные очки службы безопасности, созданные для работы оперативников Aegis.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/secglasses.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/secglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+    - Inorganic
+    - Silicon
+  - type: Tag
+    tags:
+    - WhitelistChameleon

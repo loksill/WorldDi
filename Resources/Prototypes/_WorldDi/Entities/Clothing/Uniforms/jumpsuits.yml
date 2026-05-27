@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitOperativeAegis
+  name: Aegis operative jumpsuit
+  description: A dark service jumpsuit for Aegis operatives who prefer discipline to decoration.
+  components:
+    - type: Sprite
+      sprite: Corvax/Clothing/Uniforms/Jumpsuit/hos_black.rsi
+    - type: Clothing
+      sprite: Corvax/Clothing/Uniforms/Jumpsuit/hos_black.rsi
